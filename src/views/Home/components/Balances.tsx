@@ -112,13 +112,25 @@ const Balances: React.FC = () => {
       <Spacer />
 
       <Card>
+      
         <CardContent>
-          <Label text="Total PhonenixETH Supply" />
-          <Value
-            value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
-            decimals={0}
-          />
+          <StyledBalances>
+            <StyledBalance>
+              <SushiIcon />
+              <Spacer />
+              <div style={{ flex: 1 }}>
+                <Label text="Total PhonenixETH Supply" />
+                <Value
+                  value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
+                  decimals={0}
+                />
+              </div>
+            </StyledBalance>
+          </StyledBalances>
         </CardContent>
+
+
+
         <Footnote>
           New rewards per block
           <FootnoteValue>60 PHX</FootnoteValue>
