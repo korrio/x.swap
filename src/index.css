@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(White,White,  orange,orange);
+  background: linear-gradient( #78D2CD,White,#FED879,#F0954C);
+  background-position: fixed;
+   background-repeat: no-repeat;
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
