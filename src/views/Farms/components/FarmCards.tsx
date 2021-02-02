@@ -17,6 +17,8 @@ import useFarms from '../../../hooks/useFarms'
 import useSushi from '../../../hooks/useSushi'
 import { getEarned, getMasterChefContract } from '../../../sushi/utils'
 import { bnToDec } from '../../../utils'
+import {isMobile} from 'react-device-detect';
+
 
 interface FarmWithStakedValue extends Farm, StakedValue {
   apy: BigNumber
