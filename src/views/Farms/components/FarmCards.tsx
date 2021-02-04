@@ -61,11 +61,20 @@ const FarmCards: React.FC = () => {
           : null,
       }
       const newFarmRows = [...farmRows]
-      if (newFarmRows[newFarmRows.length - 1].length === 3) {
-        newFarmRows.push([farmWithStakedValue])
-      } else {
-        newFarmRows[newFarmRows.length - 1].push(farmWithStakedValue)
+      if(isMobile) {
+        if (newFarmRows[newFarmRows.length - 1].length === 2) {
+          newFarmRows.push([farmWithStakedValue])
+        } else {
+          newFarmRows[newFarmRows.length - 1].push(farmWithStakedValue)
+        }
+      }else{
+        if (newFarmRows[newFarmRows.length - 1].length === 3) {
+          newFarmRows.push([farmWithStakedValue])
+        } else {
+          newFarmRows[newFarmRows.length - 1].push(farmWithStakedValue)
+        }
       }
+      
       return newFarmRows
     },
     [[]],
@@ -245,13 +254,20 @@ const StyledLoadingWrapper = styled.div`
 `
 
 const StyledRow = styled.div`
-  display: flex;
-  margin-bottom: ${(props) => props.theme.spacing[4]}px;
-  flex-flow: row wrap;
-  @media (max-width: 768px) {
-    width: 100%;
-    flex-flow: column nowrap;
-    align-items: center;
+padding: 0;
+margin: 0;
+align-items: center;
+align-content: center;
+list-style: none;
+margin: ${(props) => props.theme.spacing[2]}px 0 0;
+-ms-box-orient: horizontal;
+ margin-left: 16px;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -moz-flex;
+display: -webkit-flex;
+display: flex;
   }
 `
 
