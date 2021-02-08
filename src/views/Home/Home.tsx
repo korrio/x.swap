@@ -26,14 +26,19 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
+        <StyledInfo>
         <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
+        </StyledInfo>
+       
       </div>
     </Page>
   )
 }
 
+
+
 const StyledInfo = styled.h3`
-  color: ${(props) => props.theme.color.grey[500]};
+  color: ${(props) => props.theme.color.grey[900]};
   font-size: 16px;
   font-weight: 400;
   margin: 0;

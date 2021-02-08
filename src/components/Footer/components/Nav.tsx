@@ -33,17 +33,18 @@ const Nav: React.FC = () => {
 }
 
 const StyledNav = styled.nav`
+color: ${(props) => props.theme.color.red[900]};
   align-items: center;
   display: flex;
 `
 
 const StyledLink = styled.a`
-  color: ${(props) => props.theme.color.red[300]};
+  color: ${(props) => props.theme.color.red[500]};
   padding-left: ${(props) => props.theme.spacing[3]}px;
   padding-right: ${(props) => props.theme.spacing[3]}px;
   text-decoration: none;
   &:hover {
-    color: ${(props) => props.theme.color.red[300]};
+    color: ${(props) => props.theme.color.red[900]};
   }
 `
 

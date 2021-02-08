@@ -95,7 +95,7 @@ const Balances: React.FC = () => {
               <Spacer />
               <div style={{ flex: 1 }}>
                 <Label text="Your PhonenixETH Balance" />
-                <Value
+                <Value 
                   value={!!account ? getBalanceNumber(sushiBalance) : 'Locked'}
                 />
               </div>
@@ -143,8 +143,8 @@ const Balances: React.FC = () => {
 const Footnote = styled.div`
   font-size: 14px;
   padding: 8px 20px;
-  color: ${(props) => props.theme.color.grey[400]};
-  border-top: solid 1px ${(props) => props.theme.color.grey[300]};
+  color: ${(props) => props.theme.color.grey[900]};
+  border-top: solid 1px ${(props) => props.theme.color.grey[900]};
 `
 const FootnoteValue = styled.div`
   font-family: 'Roboto Mono', monospace;
