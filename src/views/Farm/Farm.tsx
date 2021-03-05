@@ -56,9 +56,14 @@ const Farm: React.FC = () => {
 
   return (
     <>
-      <PageHeader
+      {/*<PageHeader
         icon={icon}
         subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
+        title={name}
+      />*/}
+      <PageHeader
+        icon={icon}
+        subtitle={`Deposit ${lpTokenName}  Tokens and earn PHX`}
         title={name}
       />
       <StyledFarm>

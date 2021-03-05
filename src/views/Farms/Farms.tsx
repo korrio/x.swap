@@ -36,7 +36,7 @@ const Farms: React.FC = () => {
                   marginBottom: '2%'
                 }}
               >
-                Note: Current APY includes 2/3rd PHX emission that is locked for 6 months.
+                {/*Note: Current APY includes 2/3rd PHX emission that is locked for 6 months.*/}
               </div>
               <FarmCards />
             </Route>

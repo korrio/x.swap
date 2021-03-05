@@ -14,6 +14,18 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
+      <StyledAbsoluteLink
+        href="https://exchange.phonenixeth.io/#/swap"
+        target="_blank"
+      >
+        Exchange
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://analytics.phonenixeth.io/"
+        target="_blank"
+      >
+        Analytics
+      </StyledAbsoluteLink>
     </StyledNav>
   )
 }

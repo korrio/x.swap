@@ -1,6 +1,6 @@
 body {
    background-color: rgb(44, 47, 54);
-  background: linear-gradient( rgb(44, 47, 54),#24354d, rgb(44, 47, 54));
+  background: linear-gradient( rgb(44, 47, 54),#24354d, rgb(44, 47, 54)) fixed;
   background-position: fixed;
    background-repeat: no-repeat;
   margin: 0;

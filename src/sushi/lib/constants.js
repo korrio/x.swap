@@ -82,8 +82,8 @@ export const supportedPools = [
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
     name: 'PHX Party!',
-    symbol: 'SUSHI-ETH SLP',
-    tokenSymbol: 'SUSHI',
+    symbol: 'PHX-ETH SLP',
+    tokenSymbol: 'PHX',
     icon: '🦃',
   },
   {
@@ -97,7 +97,7 @@ export const supportedPools = [
     name: 'Circle Snail',
     symbol: 'USDC-ETH SLP',
     tokenSymbol: 'USDC',
-    icon: '🐌',
+    icon: '1️⃣',
   },
   {
     pid: 2,
@@ -110,7 +110,7 @@ export const supportedPools = [
     name: 'Donald DAI',
     symbol: 'DAI-ETH SLP',
     tokenSymbol: 'DAI',
-    icon: '🦆',
+    icon: '2️⃣',
   },
   {
     pid: 21,
@@ -123,7 +123,7 @@ export const supportedPools = [
     name: "BitCorn",
     symbol: 'WBTC-ETH SLP',
     tokenSymbol: 'WBTC',
-    icon: '🌽',
+    icon: '2️⃣',
   },
   {
     pid: 0,
@@ -136,7 +136,7 @@ export const supportedPools = [
     name: 'Tether Turtle',
     symbol: 'USDT-ETH SLP',
     tokenSymbol: 'USDT',
-    icon: '🐢',
+    icon: '3️⃣',
   },
   {
     pid: 11,
@@ -149,7 +149,7 @@ export const supportedPools = [
     name: 'YFI Whale',
     symbol: 'YFI-ETH SLP',
     tokenSymbol: 'YFI',
-    icon: '🐋',
+    icon: '4️⃣',
   },
   {
     pid: 3,
@@ -162,7 +162,7 @@ export const supportedPools = [
     name: 'Spartan Dollar',
     symbol: 'SUSD-ETH SLP',
     tokenSymbol: 'SUSD',
-    icon: '🦍',
+    icon: '5️⃣',
   },
   {
     pid: 8,
@@ -175,7 +175,7 @@ export const supportedPools = [
     name: 'Toadie Marine',
     symbol: 'LINK-ETH SLP',
     tokenSymbol: 'LINK',
-    icon: '🐸',
+    icon: '6️⃣',
   },
   {
     pid: 37,
@@ -188,7 +188,7 @@ export const supportedPools = [
     name: 'Aave Boar',
     symbol: 'AAVE-ETH SLP',
     tokenSymbol: 'AAVE',
-    icon: '🐗',
+    icon: '7️⃣',
   },
   {
     pid: 4,
@@ -201,7 +201,7 @@ export const supportedPools = [
     name: 'Compound Truffle',
     symbol: 'COMP-ETH SLP',
     tokenSymbol: 'COMP',
-    icon: '🍄',
+    icon: '8️⃣',
   },
   {
     pid: 6,
@@ -214,7 +214,7 @@ export const supportedPools = [
     name: 'Synthetic Snake',
     symbol: 'SNX-ETH SLP',
     tokenSymbol: 'SNX',
-    icon: '🐍',
+    icon: '9️⃣',
   },
   {
     pid: 7,
@@ -227,7 +227,7 @@ export const supportedPools = [
     name: 'Umami Squid',
     symbol: 'UMA-ETH SLP',
     tokenSymbol: 'UMA',
-    icon: '🦑',
+    icon: '9️⃣',
   },
   {
     pid: 9,
@@ -240,7 +240,7 @@ export const supportedPools = [
     name: 'Band-osaurus',
     symbol: 'BAND-ETH SLP',
     tokenSymbol: 'BAND',
-    icon: '🦖',
+    icon: '🔟',
   },
   {
     pid: 18,
